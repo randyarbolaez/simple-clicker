@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  font-family: 'Permanent Marker', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper h1 {
+  font-size: 5rem;
+  color: #241734;
+}
+
+.wrapper h1:active {
+  color: #f706cf;
+}
+
+.wrapper p {
+  font-size: 3rem;
+  color: #2de2e6;
+}
+
+.wrapper button {
+  font-family: 'Permanent Marker', cursive;
+  margin: 1%;
+  width: 10%;
+  height: 50px;
+  font-size: 2rem;
+  background: #241734;
+  color: #2de2e6;
+  box-shadow: 5px 10px #888888;
+}
+
+.wrapper button:active {
+  background: #241734;
+  box-shadow: 5px 10px #888888;
+  color: #f706cf;
+}
